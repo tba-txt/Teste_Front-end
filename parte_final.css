@@ -1,0 +1,124 @@
+.espaco-avaliacao { /*nesse espaço serão armazenados todos os elementos que compõem a avaliação do software*/
+    width: 100vw;
+    height: 570px;
+    background-color: #1f2125;
+    color: white;
+    display: grid;
+    grid-template-rows: auto auto auto 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    padding: 40px;
+    box-sizing: border-box;
+    gap: 10px;
+}
+
+.titulo-avaliacao {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    grid-column: 2;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-left: -530px;
+}
+
+.texto {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    grid-column: 2;
+    font-size: 20px;
+    margin-bottom: 10px;
+    letter-spacing: 1.5px;
+    max-width: 900px;
+}
+
+.avaliacao {
+    grid-column: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.aspas-icon img {
+    width: 120px;
+    height: 134px;
+    margin-right: 10px;
+    margin-left: -390px;
+    margin-top: -300px;
+    transform: scaleX(-1) scaleY(-1);
+}
+
+.estrelas {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.estrelas img {
+    width: 40px;
+    height: 40px;
+    transform: translateY(0px);
+    transform: translateX(-263px);
+}
+
+.avaliador {
+    grid-column: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+
+.avaliador img {
+    width: 100px;
+    height: 100px;
+    border-radius: 150px;
+    position: absolute;
+    margin-left: -620px;
+    margin-top: 30px;
+}
+
+.nome-avaliador {
+    font-size: 26px;
+    font-weight: bold;
+    position: relative;
+    left: -70px;
+    top: -16px;
+    width: auto;
+    height: auto;
+}
+
+.cargo-avaliador {
+    font-size: 20px;
+    border-radius: 50px;
+    position: relative;
+    left: -230px;
+    top: 31px;
+    width: auto;
+    height: auto;
+}
+
+.setas {
+    grid-column: 3;
+    display: flex;
+    flex-direction: row;  
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    left: 400px;
+    top: -20px;
+}
+
+.setas img {
+    width: 50px;
+    height: 50px;
+}
+
+.setas img.invertida {
+    transform: scaleX(-1);
+}

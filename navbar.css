@@ -1,0 +1,36 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    padding: 16px 32px;
+    background: #111317;
+    backdrop-filter: blur(8px);
+    width: 100%;
+    top: 0;
+}
+
+.logo-nav {
+    width: 50%;
+}
+
+.navbar_conteudo {
+    display: flex;
+    gap: 16px; 
+    justify-content: center;
+}
+
+.navbar-botoes {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.navbar-botoes:hover {
+    color: #f9ac54;
+    transform: scale(1.1);
+}

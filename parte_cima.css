@@ -1,0 +1,179 @@
+/*separei em 5 documentos css*/
+
+body {
+    background-color: #111317;
+}
+
+button:hover {
+    background: #ffdd57;
+}
+
+.container1, .header, .container, .meio_pagina, .meio_pagina1, .card-meio, .meio_pagina2, .beneficio-item, .quadrado, .avaliacao {
+    visibility: hidde;
+} /*isso torna os elementos invisiveis até que o event chame eles por meio da rolagem */
+
+.btn-transparent {
+    padding: 16px 0px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    transition: color 0.3s, transform 0.3s, background-color 0.3s;
+}
+
+.btn-transparent:hover {
+    color: #f9ac54;
+    transform: scale(1.05);
+    background-color: #1f2125;
+}
+
+.card2 {
+    background-color: #1f2125;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    min-height: 270px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card2:hover {
+    transform: scale(1.01);
+    box-shadow: 0px 0px 4px 4px #ffdd57;
+}
+
+.card {
+    background-color: #1f2125;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    min-height: 270px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.01);
+    box-shadow: 0px 0px 4px 4px #ffdd57;
+}
+
+.card1 {
+    background-color: #1f2125;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    min-height: 270px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.container .row > div {
+    display: flex;
+    align-items: left;
+}
+
+.seta {
+    transform: scaleX(-1);
+    margin-left: 20px;
+    width: 30px;
+    height: 30px;
+}
+
+.seta2 {
+    margin-left: 720px;
+    width: 30px;
+    height: 30px;
+}
+
+.icon {
+    margin-bottom: 32px;
+}
+
+.botao {
+    padding: 15px 24px;
+    color: white;
+    background: #f9ac54;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.5s, transform 0.5s;
+    position: relative;
+    top: 0px;
+    left: 120px;
+}
+
+.botao1 {
+    padding: 15px 24px;
+    color: white;
+    background: #f9ac54;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.5s, transform 0.5s;
+    position: relative;
+    top: 40px;
+    left: 470px;
+}
+
+.container1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 96px 32px;
+}
+
+.aluno-treinando {
+    width: 300px;
+    height: 450px;
+    position: absolute;
+    top: 200px;
+    left: 1480px;
+}
+
+.make { /* coloquei shape e make, pois são as letras maiores, e tive que criar uma classe separada para cada*/
+    font-size: 70px;
+    color: #111317;
+    -webkit-text-stroke-width: 0.3px;
+    -webkit-text-stroke-color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin: 0;
+    position: relative;
+    top: 10px;
+    left: 460px;
+}
+
+.shape {
+    font-size: 70px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin: 0;
+    position: relative;
+    top: 5px;
+    left: 460px;
+}
+
+.texto_inicial {
+    max-width: 610px;
+    color: white;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    margin-top: 16px;
+    position: relative;
+    top: 15px;
+    left: 470px;
+    line-height: 1.8;
+}
+
+.titulo {
+    color: #f9ac54;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    position: relative;
+    top: 0px;
+    left: 462px;
+}
+
+/* */
